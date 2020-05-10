@@ -16,6 +16,16 @@
   padding: 20px 0px;
 }
 
+.line {
+  background-color: #C9D0E9;
+  height: 1px;
+}
+
+.body, .carousel {
+  width: 60%;
+  min-width:450px;
+}
+
 .links li {
   display: inline;
   margin-left: 25px;
@@ -26,56 +36,65 @@
   font-size: 0.8em;
 }
 
-.line {
-  border-bottom: 1px solid #C9D0E9;
+.links a:hover {
+  text-decoration: underline;
 }
 
-.intro, .about, .carousel {
-  width: 60%;
-}
-
-h1 {
-  margin-top: 100px;
-}
-
-.line-2 {
-  margin-top: 40px;
-  border-bottom: 5px solid #C9D0E9;
-  width: 80px;
-  display: inline-block;
-}
-
-.about {
+.body {
+  margin-top: 80px;
+  padding: 0px 20px;
   position: relative;
-  height: 200px;
-  margin-top: 40px;
+}
+
+.bio, .illustrations {
+  display: inline-block;
 }
 
 .bio {
+  width: 55%;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+.line-2 {
+  position: relative;
+  float: left;
+  background-color: #C9D0E9;
+  height: 8px;
+  margin-top: 30px;
+  width: 80px;
+}
+
+p {
   display: inline-block;
-  width: 400px;
-  vertical-align: top;
-  line-height: 1.7em;
+  margin: 30px 0px;
+  line-height: 1.6em;
 }
 
 .underline {
   text-decoration: underline;
 }
 
-.image {
-  display: inline-block;
-  height: 100%;
-  width: 300px;
-  margin-left: 50px;
-  margin-top: -80px;
+.illustrations {
+  width: 40%;
+  height: 220px;
+  margin-left: 2%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 img {
   height: 100%;
+  width: 100%;
 }
 
 .carousel {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -86,4 +105,8 @@ img {
   border-radius: 50%;
   display: inline-block;
   margin: 0px 5px;
+}
+
+.one {
+  background-color: #C9D0E9;
 }
